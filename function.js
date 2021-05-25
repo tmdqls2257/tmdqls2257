@@ -131,12 +131,3 @@ const simplePrint = function(){
 // 코드를 줄여주기 위해 사용
 /*const simplePrint = () => console.log('simplePrint');
 const add = (a, b) => a + b;*/
-
-function calculate(command, a, b){
-    if(command !== add){
-        break;
-    }
-    else {
-        a + b;
-    }
-}
