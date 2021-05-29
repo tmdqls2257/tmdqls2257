@@ -80,14 +80,14 @@ console.log(null === undefined);//false*/
 
 //8. Conditional operators:if
 // if, else if, else
-const name = 'ellie';
-if (name = 'ellie'){
-    console.log('Welcome, Ellie!');
-} else if(name === 'coder') {
-    console.log('You are amazing color');
-} else {
-    console.log('unkown');
-}
+// const name = 'ellie';
+// if (name = 'ellie'){
+//     console.log('Welcome, Ellie!');
+// } else if(name === 'coder') {
+//     console.log('You are amazing color');
+// } else {
+//     console.log('unkown');
+// }
 
 // 9. Ternary operator: ?
 // condition ? value1 : value2;
@@ -138,9 +138,26 @@ for (let i = 3; i > 0; i = i - 2){
     console.log(`inline variable for: ${i}`);
 }
 
+
 for(let i = 0; i < 11; i++){
     if (i % 2 !== 0){
         continue;
     }
     console.log(`q1. ${i}`);
+}
+console.clear();
+for(let i = 0; i <= 10; i++){
+    if (i % 2 === 1){
+        continue;
+    }
+    else if (i === 0){
+        continue;
+    }
+    console.log(`${i}`);
+}
+for(let i = 0; i <= 10; i++){
+    if(i === 8){
+        break;
+    }
+    console.log(i);
 }
